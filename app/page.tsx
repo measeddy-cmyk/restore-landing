@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { Animate } from "@/components/Animate";
 
 const CTA_URL = "https://eddymeas.systeme.io/b8a23fda";
@@ -11,9 +10,9 @@ export default function Home() {
       {/* NAV */}
       <nav style={{ padding: "20px 24px", display: "flex", justifyContent: "space-between", alignItems: "center", borderBottom: "1px solid var(--border)", position: "sticky", top: 0, backgroundColor: "rgba(8,8,8,0.95)", backdropFilter: "blur(10px)", zIndex: 100 }}>
         <span style={{ fontSize: "1.2rem", fontWeight: 900, color: "var(--orange)", letterSpacing: "0.15em", textTransform: "uppercase" }}>RESTORE™</span>
-        <Link href={CTA_URL} style={{ padding: "10px 22px", backgroundColor: "var(--orange)", color: "var(--text)", borderRadius: "8px", textDecoration: "none", fontWeight: 700, fontSize: "0.875rem" }}>
+        <a href={CTA_URL} target="_blank" rel="noopener noreferrer" style={{ padding: "10px 22px", backgroundColor: "var(--orange)", color: "var(--text)", borderRadius: "8px", textDecoration: "none", fontWeight: 700, fontSize: "0.875rem" }}>
           Accéder à la formation
-        </Link>
+        </a>
       </nav>
 
       {/* HERO */}
@@ -43,9 +42,9 @@ export default function Home() {
         </Animate>
 
         <Animate type="fadeUp" delay={300}>
-          <Link href={CTA_URL} style={{ display: "inline-flex", alignItems: "center", gap: "12px", padding: "18px 40px", backgroundColor: "var(--orange)", color: "var(--text)", borderRadius: "12px", textDecoration: "none", fontWeight: 800, fontSize: "1.1rem", boxShadow: "0 0 40px rgba(255,107,0,0.3)" }}>
+          <a href={CTA_URL} target="_blank" rel="noopener noreferrer" style={{ display: "inline-flex", alignItems: "center", gap: "12px", padding: "18px 40px", backgroundColor: "var(--orange)", color: "var(--text)", borderRadius: "12px", textDecoration: "none", fontWeight: 800, fontSize: "1.1rem", boxShadow: "0 0 40px rgba(255,107,0,0.3)" }}>
             Accéder à la formation <span>→</span>
-          </Link>
+          </a>
           <p style={{ marginTop: "16px", fontSize: "0.8rem", color: "var(--muted)" }}>Des centaines d&apos;hommes ont déjà fait le premier pas.</p>
         </Animate>
       </section>
@@ -205,9 +204,9 @@ export default function Home() {
           <p style={{ color: "var(--muted)", maxWidth: "480px", margin: "0 auto 40px", lineHeight: 1.7 }}>
             Chaque jour qui passe c&apos;est un jour de plus sans réponses. Le premier pas commence ici.
           </p>
-          <Link href={CTA_URL} style={{ display: "inline-flex", alignItems: "center", gap: "12px", padding: "20px 48px", backgroundColor: "var(--orange)", color: "var(--text)", borderRadius: "12px", textDecoration: "none", fontWeight: 800, fontSize: "1.15rem", boxShadow: "0 0 60px rgba(255,107,0,0.35)" }}>
+          <a href={CTA_URL} target="_blank" rel="noopener noreferrer" style={{ display: "inline-flex", alignItems: "center", gap: "12px", padding: "20px 48px", backgroundColor: "var(--orange)", color: "var(--text)", borderRadius: "12px", textDecoration: "none", fontWeight: 800, fontSize: "1.15rem", boxShadow: "0 0 60px rgba(255,107,0,0.35)" }}>
             Accéder à la formation <span>→</span>
-          </Link>
+          </a>
           <p style={{ marginTop: "20px", fontSize: "0.8rem", color: "var(--muted)" }}>
             Déjà inscrit ?{" "}
             <a href={STUDENT_URL} style={{ color: "var(--muted2)", textDecoration: "underline" }}>Accéder à mon espace</a>
