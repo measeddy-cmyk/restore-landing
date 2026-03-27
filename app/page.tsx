@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Animate } from "@/components/Animate";
 
-const CTA_URL = "https://systeme.io/dashboard/share?hash=6833232d96e0f7f5bbc7fffad06aed760131203&type=funnel";
+const CTA_URL = "https://eddymeas.systeme.io/b8a23fda";
 const STUDENT_URL = "https://measeddy.vercel.app/learn/sign-in";
 
 export default function Home() {
