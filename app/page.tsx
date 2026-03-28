@@ -55,7 +55,7 @@ export default function Home() {
           <p style={{ color: "var(--orange)", fontWeight: 700, letterSpacing: "0.1em", textTransform: "uppercase", fontSize: "0.8rem", marginBottom: "16px", textAlign: "center" }}>La vérité</p>
           <h2 style={{ fontSize: "clamp(1.6rem, 4vw, 2.5rem)", fontWeight: 900, textAlign: "center", marginBottom: "20px" }}>Personne t&apos;a appris ça.</h2>
           <p style={{ color: "var(--muted)", textAlign: "center", maxWidth: "560px", margin: "0 auto 60px", lineHeight: 1.7 }}>
-            L&apos;école, tes parents, tes amis — tout le monde a esquivé le sujet. Résultat : t&apos;avances à l&apos;aveugle dans un domaine crucial de ta vie d&apos;homme.
+            L&apos;école, tes parents, tes amis... tout le monde a esquivé le sujet. Résultat : t&apos;avances à l&apos;aveugle dans un domaine crucial de ta vie d&apos;homme.
           </p>
         </Animate>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "20px" }}>
@@ -85,10 +85,10 @@ export default function Home() {
         <div style={{ display: "flex", flexDirection: "column" }}>
           {[
             { num: "01", title: "Les bases que personne ne t'a enseignées", desc: "Comprendre ton anatomie, ton cycle hormonal et ce qui influence vraiment ta santé sexuelle." },
-            { num: "02", title: "La testostérone — démystifiée", desc: "Comment l'optimiser naturellement : alimentation, sommeil, entraînement, stress. Sans bullshit." },
+            { num: "02", title: "La testostérone démystifiée", desc: "Comment l'optimiser naturellement : alimentation, sommeil, entraînement, stress. Sans bullshit." },
             { num: "03", title: "Performance et confiance", desc: "Les vraies causes des blocages et comment les lever une bonne fois pour toutes." },
             { num: "04", title: "Nutrition & style de vie", desc: "Ce que tu mets dans ton corps a un impact direct. On t'explique quoi faire concrètement." },
-            { num: "05", title: "La dimension mentale", desc: "Anxiété de performance, estime de soi, rapport au corps — tout ce qui se passe dans ta tête." },
+            { num: "05", title: "La dimension mentale", desc: "Anxiété de performance, estime de soi, rapport au corps : tout ce qui se passe dans ta tête." },
             { num: "06", title: "Protocoles & routines", desc: "Des plans d'action clairs à appliquer semaine par semaine pour ancrer les changements." },
           ].map((item, i) => (
             <Animate key={i} type={i % 2 === 0 ? "fadeLeft" : "fadeRight"} delay={i * 80}>
@@ -115,7 +115,7 @@ export default function Home() {
           </Animate>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "20px" }}>
             {[
-              { icon: "🧠", title: "Comprendre ton corps", desc: "Enfin comprendre comment tu fonctionnes vraiment — sans les mythes ni les raccourcis." },
+              { icon: "🧠", title: "Comprendre ton corps", desc: "Enfin comprendre comment tu fonctionnes vraiment, sans les mythes ni les raccourcis." },
               { icon: "⚡", title: "Retrouver ton énergie", desc: "Optimise ta vitalité, ta testostérone naturelle et ton élan au quotidien." },
               { icon: "💪", title: "Reprendre confiance", desc: "Construis une confiance solide, ancrée dans la connaissance de toi-même." },
               { icon: "🎯", title: "Des protocoles concrets", desc: "Des actions précises à appliquer dès aujourd'hui, pas de la théorie inutile." },
@@ -142,7 +142,7 @@ export default function Home() {
               <p style={{ color: "var(--orange)", fontWeight: 700, letterSpacing: "0.1em", textTransform: "uppercase", fontSize: "0.8rem", marginBottom: "16px" }}>Ton formateur</p>
               <h2 style={{ fontSize: "clamp(1.6rem, 4vw, 2.2rem)", fontWeight: 900, marginBottom: "20px" }}>À propos de moi</h2>
               <p style={{ color: "var(--muted2)", lineHeight: 1.8, marginBottom: "16px", fontSize: "0.95rem" }}>
-                Je m&apos;appelle <strong style={{ color: "var(--text)" }}>Eddy Meas</strong>. J&apos;ai traversé moi-même ce que beaucoup d&apos;hommes vivent en silence — la confusion, le silence, la honte parfois.
+                Je m&apos;appelle <strong style={{ color: "var(--text)" }}>Eddy Meas</strong>. J&apos;ai traversé moi-même ce que beaucoup d&apos;hommes vivent en silence : la confusion, le silence, la honte parfois.
               </p>
               <p style={{ color: "var(--muted2)", lineHeight: 1.8, marginBottom: "16px", fontSize: "0.95rem" }}>
                 RESTORE™ est né de ma propre reconstruction. J&apos;ai compilé tout ce que j&apos;aurais voulu savoir plus tôt pour que toi tu n&apos;aies pas à chercher pendant des années.
